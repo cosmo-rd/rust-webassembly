@@ -63,5 +63,6 @@ npm link myproject
 ## 実行
 
 ```
+cd myproject/www
 npm run start
 ```
