@@ -3,8 +3,19 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - command: export TZ="Asia/Tokyo"
+  - init: cargo install wasm-pack 
+      && cd myproject
+      && npm init wasm-app www
+      && cd www
+      && npm install
+      && cd ../pkg/
+      && npm link
+      && cd ../www/
+      && npm link myproject
+
+    command: export TZ="Asia/Tokyo"
 
 vscode:
   extensions:
     - rust-lang.rust
+    - vscodevim.vim

@@ -60,7 +60,7 @@ cd myproject/www
 npm link myproject
 ```
 
-## 実行
+## 実行 ここは毎回
 
 ```
 cd myproject/www
