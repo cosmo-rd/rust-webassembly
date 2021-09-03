@@ -5,6 +5,7 @@ image:
 tasks:
   - init: cargo install wasm-pack 
       && cd myproject
+      && wasm-pack build
       && npm init wasm-app www
       && cd www
       && sed -i -e 's/hello-wasm-pack/myproject/g' index.js
