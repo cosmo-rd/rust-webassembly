@@ -7,6 +7,8 @@ rustup -V
 rustup show
 ```
 
+---
+
 ## インストール作業
 
 ### Rust で WebAssemblyを構築するためのツール
@@ -28,8 +30,11 @@ cargo generate --git https://github.com/rustwasm/wasm-pack-template --name mypro
 cd myproject
 ```
 
-### コンパイル
+---
 
+## コンパイル
+
+### WebAssembly パッケージコンパイル
 ```
 cd myproject
 wasm-pack build
@@ -59,6 +64,8 @@ npm link
 cd myproject/www
 npm link myproject
 ```
+
+---
 
 ## 実行 ここは毎回
 
