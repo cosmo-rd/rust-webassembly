@@ -7,6 +7,7 @@ tasks:
       && cd myproject
       && npm init wasm-app www
       && cd www
+      && sed -i -e 's/hello-wasm-pack/myproject/g' index.js
       && npm install
       && cd ../pkg/
       && npm link
