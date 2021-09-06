@@ -1,3 +1,6 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/gogo-pats/rust-webassembly)
+[![Rust](https://img.shields.io/badge/Rust-b7410e.svg?longCache=true)](https://www.rust-lang.org/ja)
+
 ## Rustバージョン確認
 
 ```
