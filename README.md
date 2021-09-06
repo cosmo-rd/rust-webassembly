@@ -1,6 +1,6 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/gogo-pats/rust-webassembly)
-[![Rust](https://img.shields.io/badge/Rust-b7410e.svg?longCache=true)](https://www.rust-lang.org/ja)
-[![WebAssembly](https://img.shields.io/badge/WebAssembly-dda0dd.svg?longCache=true)](https://developer.mozilla.org/ja/docs/WebAssembly)
+[![Rust](https://img.shields.io/badge/Rust-1.51.0-b7410e.svg?longCache=true)](https://www.rust-lang.org/ja)
+[![wasm_pack](https://img.shields.io/badge/wasm_pack-0.10.1-dda0dd.svg?longCache=true)](https://developer.mozilla.org/ja/docs/WebAssembly)
 ## Rustバージョン確認
 
 ```
